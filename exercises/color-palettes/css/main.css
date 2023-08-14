@@ -45,6 +45,9 @@ div{
     height:100px;   
     background-color: #50808E;
 }
+#p1-d1,#p1-d2,#p1-d3,#p1-d4,#p1-d5,#p1-h1{
+    font-family: 'Courier New', Courier, monospace;
+}
 
 #p2-d1{
     display:block;
@@ -86,6 +89,10 @@ div{
     height:100px;   
     background-color: #EAAC8B;
 }
+#p2-d1,#p2-d2,#p2-d3,#p2-d4,#p2-d5,#p2-h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
 
 #p3-d1{
     display:block;
@@ -126,4 +133,7 @@ div{
     width:350px;
     height:100px;   
     background-color: #D66853;
+}
+#p3-d1,#p3-d2,#p3-d3,#p3-d4,#p3-d5,#p3-h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
