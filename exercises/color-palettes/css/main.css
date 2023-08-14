@@ -1,0 +1,129 @@
+h2, h4, h5{
+    text-align: center;
+}
+div{
+    padding: 24px;    
+}
+
+#p1-d1{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:350px;
+    height:100px;    
+    background-color: #DDD8C4;
+}
+#p1-d2{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:350px;
+    height:100px;   
+    background-color: #A3C9A8;
+}
+#p1-d3{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:350px;
+    height:100px;   
+    background-color: #84B59F;
+}
+#p1-d4{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:350px;
+    height:100px;   
+    background-color: #69A297;
+}
+#p1-d5{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:350px;
+    height:100px;   
+    background-color: #50808E;
+}
+
+#p2-d1{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:350px;
+    height:100px;   
+    background-color: #355070;
+}
+#p2-d2{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:350px;
+    height:100px;   
+    background-color: #6D597A;
+}
+#p2-d3{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:350px;
+    height:100px;   
+    background-color: #B56576;
+}
+#p2-d4{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:350px;
+    height:100px;   
+    background-color: #E56B6F;
+}
+#p2-d5{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:350px;
+    height:100px;   
+    background-color: #EAAC8B;
+}
+
+#p3-d1{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:350px;
+    height:100px;   
+    background-color: #11151C;
+}
+#p3-d2{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:350px;
+    height:100px;   
+    background-color: #212D40;
+}
+#p3-d3{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:350px;
+    height:100px;   
+    background-color: #364156;
+}
+#p3-d4{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:350px;
+    height:100px;   
+    background-color: #7D4E57;
+}
+#p3-d5{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:350px;
+    height:100px;   
+    background-color: #D66853;
+}
