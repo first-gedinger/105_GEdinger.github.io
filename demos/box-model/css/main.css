@@ -1,0 +1,12 @@
+div{
+    border: 1px dashed blue;
+    margin: 24px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+p{
+  background-color: aliceblue;
+  padding: 15px 15px 15px 15px;
+  border: 2px solid rgb(225, 241, 255);
+  border-radius: 10px;
+}
