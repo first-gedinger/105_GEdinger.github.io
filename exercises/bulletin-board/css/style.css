@@ -1,0 +1,66 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it{
+    margin: 30px;
+    padding: 24px;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    vertical-align: middle;
+}
+img{
+    width: 100%;
+}
+/* all # Here */
+#p1{
+    background-color:rgb(255, 239, 205);
+    width: 250px;
+    height: 250px;
+}
+#p2{
+    background-color:rgb(255, 205, 205);
+    width: 250px;
+    height: 250px;
+}
+#p3{
+    background-color:rgb(205, 239, 255);
+    width: 250px;
+    height: 250px;
+}
+#p4{
+    background-color:rgb(110, 102, 134);
+    width: 250px;
+    height: 250px;
+}
+#p5{
+    background-color:rgb(255, 209, 241);
+    width: 250px;
+    height: 250px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#p6{
+    background-color:rgb(136, 159, 230);
+    height: 300px;
+    width: 300px;
+}
+#p7{
+    background-color: azure;
+    height: 300px;
+    width: 300px;
+    font-size: 12px;
+}
+
+#p8{
+    background-color: beige;
+    text-align: center;
+}
+
