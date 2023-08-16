@@ -1,14 +1,28 @@
 /* Drill 1 - Write your code solution below */
-
+#d1-container-1{
+    padding: 36px;
+}
 
 /* Drill 2 - Write your code solution below */
-
+#d2-container-1{
+    padding: 48px 24px;
+}
 
 /* Drill 3 - Write your code solution below */
-
+#d3-div-2{
+    padding: 24px 48px;
+}
 
 /* Drill 4 - Write your code solution below */
-
+.d4-div{
+    margin: 24px 24px 24px 24px;
+}
 
 /* Drill 5 - Write your code solution below */
-
+#d5-container-1{
+    text-align: center;
+}
+.d5-s{
+    display: inline-block;
+    padding: 24px;
+}
