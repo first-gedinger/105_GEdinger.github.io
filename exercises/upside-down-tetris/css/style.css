@@ -13,8 +13,8 @@
     display: inline-block;
 }
 .hidden{
-    background-color: rgb(14, 14, 14);
-    border-color: rgb(14, 14, 14);
+    background-color:transparent;
+    border-color: transparent;
 }
 
 .color1 {
