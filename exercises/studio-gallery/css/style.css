@@ -7,7 +7,7 @@
     Good luck, and have fun!
 */
 .frame1{
-    border: 10px inset black;
+    border: 10px solid black;
     margin: 40px 12px 0px;
     box-shadow: -2px 2px 15px rgb(150, 150, 150);
 }
@@ -25,7 +25,7 @@
 }
 /* Frame 2 */
 .frame2{
-    border: 10px inset black;
+    border: 10px solid black;
     margin: 40px 12px 0px;
     box-shadow: -2px 2px 15px rgb(150, 150, 150);
 }
@@ -44,7 +44,7 @@
 
 /* Frame 3 */
 .frame3{
-    border: 10px inset black;
+    border: 10px solid black;
     margin: 40px 12px 0px;
     box-shadow: -2px 2px 15px rgb(150, 150, 150);
 }
