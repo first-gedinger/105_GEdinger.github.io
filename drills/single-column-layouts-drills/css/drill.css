@@ -1,0 +1,36 @@
+/* Drill 1 - Write your code solution below */
+#column-d1{
+    width: 50%;
+}
+
+/* Drill 2 - Write your code solution below */
+#column-d2{
+    margin-left: auto;
+    width: 50%;
+}
+
+/* Drill 3 - Write your code solution below */
+#column-d3{
+    width: 50%;
+    margin: auto auto;
+}
+
+/* Drill 4 - Write your code solution below */
+#container-d4{
+    width: 50%;
+    margin: auto auto;
+}
+
+/* Drill 5 - Write your code solution below */
+#container-2{
+    width: 50%;
+
+}
+#container-d5-2{
+    margin-left: auto;
+    width: 50%;
+}
+#container-d5-3{
+    margin-right: auto;
+    width: 50%;
+}
