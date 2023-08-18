@@ -4,26 +4,9 @@
     margin: 0;
     padding: 0;
 }
-#section1{
-    background-color: rgb(248, 197, 235);
+img{
+    width: 600px;
 }
-
-.contain1{
-    text-align: center;
-    width: 75%;
-    margin: 0 auto;
-    padding: 20px 0;
-}
-
-.contain1 h1{
-    font-family: 'Abril Fatface', cursive;
-}
-
-.contain1 p{
-    margin-top: 20px;
-    font-family: 'Nanum Myeongjo', serif;
-}
-
 .buy {
     margin-top: 10px;
 	background:linear-gradient(to bottom, #ffc28f 5%, #f0a683 100%);
@@ -37,4 +20,54 @@
 	padding:6px 24px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #c7724b2c;
+}
+#section1,#section2,#section3{
+    background-color: rgb(248, 197, 235);
+}
+
+.contain1{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.contain1 p{
+    margin-top: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.contain2{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.contain2 p{
+    margin-top: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+.contain3{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.contain3 p{
+    margin-top: 20px;
+    font-family: 'Nanum Myeongjo', serif;
 }
