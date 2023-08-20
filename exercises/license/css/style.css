@@ -14,6 +14,7 @@ h1{
 h4{
     color: white;
     background-color: blue;
+    height: 25px;
     text-align: center;
 }
 span{
@@ -21,6 +22,7 @@ span{
 }
 #id-and-expiration div{
     color: blue;
+    display: inline-block;
 }
 #license {
     width: 600px;
@@ -29,6 +31,7 @@ span{
     padding: 20px;
     margin: 0 auto;
     background-color: rgb(241, 172, 80);
+    box-shadow: 5px 1px 10px black;
   }
   
   #content {
@@ -87,5 +90,6 @@ span{
     margin-top: 20px;
     font-style: italic;
     display: inline-block;
+    text-align: center;
   }
     

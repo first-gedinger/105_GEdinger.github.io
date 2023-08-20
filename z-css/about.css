@@ -1,25 +1,54 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Urbanist:wght@200&display=swap');
+
 
 /* Paragraph */
-#about{
-    background-color: lightgrey;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.about-text{
-    padding: 40px;
-    padding-left:70px;
-    padding-right: 70px;
-    width: 75%;
-    line-height: 1.5;
-    display: inline-block;
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
-h1{
-    font-family:'Abril Fatface', cursive;
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
 }
 
-img{
-    height: 200px;
-    display: inline-block;
+.profile-image img {
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.151);
+}
+
+.profile-content {
+    padding: 10px;
+    max-width: 600px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #f44;
 }
