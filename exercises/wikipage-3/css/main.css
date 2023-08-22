@@ -92,11 +92,11 @@ body, table {
 body {
   font-family: Arial, sans-serif;
 }
-.table-container .table-container-2 .table-container-3{
+.table-player .table-org .table-achievements{
   margin: 20px;
 }
-.table-container table {
-  width: 25%;
+.table-player table {
+  width: 27%;
   border-collapse: collapse;
   border: 1px solid #ccc;
 }
