@@ -160,6 +160,9 @@ tr:hover {
     margin-top: 10px;
     margin-bottom: 2px;
   }
+  #players h3 span{
+    margin-bottom: 0;
+  }
  #organization h3{
     margin-top: 10px;
     margin-bottom: 2px;
