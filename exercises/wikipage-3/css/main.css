@@ -43,18 +43,30 @@ body {
 header, nav, main, footer {
   margin: 20px;
 }
-
+p.indent {
+  text-indent: 30px;
+}
 header h1 {
-  font-size: 32px;
+  font-size: 36px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 26px;
   margin-top: 10px;
 }
+h3{
+  font-size: 20px;
+  margin-top: 2px;
+}
 
+hr{
+  margin-top: 0px;
+}
 main p {
   margin-bottom: 20px;
+}
+p {
+  font-size: 18px;
 }
 
 footer {
@@ -139,3 +151,20 @@ tr:hover {
   .gallery-item:hover img {
     transform: scale(1.1);
   } 
+
+/* styles/little things*/
+  #dynasty{
+    font-weight: bold;
+  }
+  #players h3{
+    margin-top: 10px;
+    margin-bottom: 2px;
+  }
+ #organization h3{
+    margin-top: 10px;
+    margin-bottom: 2px;
+  }
+  #tournaments h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
