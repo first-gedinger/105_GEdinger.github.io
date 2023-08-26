@@ -1,0 +1,99 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.card-container {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-style-3 {
+    margin: 24px;
+    width: 350px;
+    border: 20px solid #eec634;
+    border-radius: 10px;
+    padding: 20px;
+    background: solid #e9e224;
+}
+.card-style-3 img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 6px solid rgb(209, 152, 48);
+}
+.pokemon-header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between
+}
+.pokemon-header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between
+
+}
+.pokemon-header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.bold {
+    font-weight:bold;
+    font-size: 20px;
+}
+.attack {
+    display: flex;
+    border-bottom: 3px solid black;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 15px;
+}
+.attack .energy .power {
+    align-items: center;
+}
+.data {
+    border: 2px solid goldenrod;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.power {
+    font-size: 20px;
+    font-weight: bold;
+}
+.health {
+    font-size: 20px;
+}
+.energy {
+    margin: auto;
+}
+.power {
+    margin:auto;
+}
+#pokemon-card-1 {
+    background: linear-gradient(30deg, #2fa069, #b3ff70, #2fa069);
+}
+#pokemon-card-2 {
+    background: linear-gradient(30deg, #0a7d06, #8ee93f, #0a7d06);
+}
+#pokemon-card-3 {
+    background: linear-gradient(30deg, #ff0000, #ff9a4d, #ff0000);
+}
+#pokemon-card-4 {
+    background: linear-gradient(30deg, #00a4f1, #6b96eb, #00a4f1);
+}
