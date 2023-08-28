@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+    ;
+}
+
+#header {
+    grid-area: header;
+    padding: 0px 36px;
+    text-align:center;
+}
+
+#header a {
+    text-decoration: none;
+}
+#header #me {
+    color: #111111;
+}
+#header #tube {
+    color: white;
+    background-color:rgb(240, 0, 0);
+    padding: 4px;
+    border-radius: 12px;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    padding:  0px 24px;
+}
+
+#sidebar ul {
+    padding: 12px 0px;
+    margin: 0px;
+    list-style-type: none;
+    border-bottom: 1px solid #aaa;
+}
+#sidebar ul a {
+    text-decoration: none;
+    color: #111;
+    display: block;
+    padding: 12px;
+}
+#sidebar ul a:hover {
+    background-color:rgb(177, 0, 0);
+    border-radius: 12px;
+    color: white;
+}
+
+#main {
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.metube-item {
+    flex: 250px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+
+.metube-item .thumbnail-placeholder {
+    aspect-ratio: 16 / 9;
+    background-image: url(https://images.unsplash.com/photo-1594768816441-1dd241ffaa67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin:24px;
+}
+.metube-item:nth-of-type(2) .thumbnail-placeholder {
+    background-image: url(https://images.unsplash.com/photo-1544652478-6653e09f18a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z2FtZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+}
+.metube-item:nth-of-type(3) .thumbnail-placeholder {
+    background-image: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+}
+.metube-item:nth-of-type(4) .thumbnail-placeholder {
+    background-image: url(https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+}
+.metube-item:nth-of-type(5) .thumbnail-placeholder {
+    background-image: url(https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80g);
+}
+.metube-item:nth-of-type(6) .thumbnail-placeholder {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c7/U.S._Air_Force_military_working_dog_Jackson_sits_on_a_U.S._Army_M2A3_Bradley_Fighting_Vehicle_before_heading_out_on_a_mission_in_Kahn_Bani_Sahd%2C_Iraq%2C_Feb._13%2C_2007.jpg);
+}
+.metube-item:nth-of-type(7) .thumbnail-placeholder {
+    background-image: url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80);
+}
+.metube-item:nth-of-type(8) .thumbnail-placeholder {
+    background-image: url(https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
+}
+.metube-item:nth-of-type(9) .thumbnail-placeholder {
+    background-image: url(https://www.kjcesports.com/wp-content/uploads/2023/07/VCTChampions2023.jpg);
+}
+.metube-item:nth-of-type(10) .thumbnail-placeholder {
+    background-image: url(https://blogscdn.thehut.net/app/uploads/sites/1285/2021/05/maxresdefault-1_1621947258-1024x576.jpg);
+}
+.metube-item:nth-of-type(11) .thumbnail-placeholder {
+    background-image: url(https://images.unsplash.com/photo-1516946870798-f970a32afc8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+}
+.metube-item:nth-of-type(12) .thumbnail-placeholder {
+    background-image: url(https://images.unsplash.com/photo-1480733992048-df39e3947a38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80);
+}
+.metube-item h4 {
+    margin: 8px;
+}
+.metube-item h4 a {
+    text-decoration: none;
+    color: #111;
+    display: block;
+}
+.metube-item h4 a:hover {
+    text-decoration: underline;
+}
+.metube-item .video-channel {
+    margin-bottom: 4px;
+}
+#main {
+    border-bottom:1px solid #aaa;
+    margin-top:20px;
+}
+  
+form.form-example {
+    display: table;
+  }
+  
+div.form-example {
+    display: table-row;
+}
+  
+label, input {
+    display: table-cell;
+    margin: 0px;
+    border-radius:15px;
+  }
+  
+label {
+    padding: 11px;
+}
+  

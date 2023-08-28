@@ -1,0 +1,56 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+body {
+    margin: 0px;
+    font-family:sans-serif;
+}
+.card-container {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-style-2 {
+    margin: 24px;
+    width: 340px;
+    height:525px;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: white;
+}
+.card-style-2 img {
+    display:flex;
+    align-items: center;
+    height:200px;
+    object-fit: cover;
+    border-radius:100%;
+    margin:auto;
+    margin-top:35px;
+
+}
+p, h2 {
+    text-align: center;
+}
+.animagram-footer span {
+    font-size:20px;
+    padding:15px;
+}
+p {
+    margin-bottom:60px;
+    margin-right:30px;
+    margin-left:30px;
+}
+.brand-name {
+    font-size:30px;
+    padding-left:80px;
+}
