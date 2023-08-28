@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    width: 125%;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+#main {
+    background: radial-gradient(at top left, #e6dee4, #f8e7f8);
+    padding: 48px;
+}
+/**/
+.container {
+    text-align: center;
+}
+
+.container h3 {
+    font-size: 36px;
+}
+
+.comparisons-layout {
+    background-color: #f8e7f8;
+    padding: 36px;
+}
+.comparison-row {
+    display: flex;
+    border-bottom: 3px solid #d1bad1;
+    color: #071022;
+}
+
+.comparison-row.comparison-header {
+    font-weight: bolder;
+}
+.comparison-row div {
+    flex: 1;
+    padding: 24px;
+    font-size: 24px;
+}
+
+/* side by side implementation */
+.side-by-side {
+    display: flex;
+    align-items: center;
+}
+.side-by-side .image-container {
+    flex: 1;
+}
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 48px;
+}
+.side-by-side .text-container .a-btn {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #1F221C;
+    color: #f8e7f8;
+    padding: 24px 48px;
+    border-radius: 48px;
+    transition: color .5s;
+}
+
