@@ -14,57 +14,63 @@ body, h1, p, a {
     background-image: url(../images/wellness.jpg);
     background-size: cover;
     background-position: center;
-    color: rgb(141, 180, 109);
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 100px 0;
+    padding: 300px 0;
   }
   
   #hero-1 h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    text-shadow: black 3px -1px 10px;
   }
   
   #hero-1 p {
     font-size: 18px;
     margin-bottom: 30px;
+    text-shadow: black 3px -1px 5px;
   }
    /* Hero section styles */
    #hero-2 {
     background-image: url(../images/coffee.jpg);
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     color: white;
     text-align: center;
-    padding: 100px 0;
+    padding: 300px 0;
   }
   
   #hero-2 h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    text-shadow: black 3px -1px 10px;
   }
   
   #hero-2 p {
     font-size: 18px;
     margin-bottom: 30px;
+    text-shadow: black 3px -1px 5px;
   }
-   /* Hero section styles */
+
    #hero-3 {
     background-image: url(../images/watermelon.jpg);
     background-size: cover;
     background-position: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 100px 0;
+    padding: 300px 0;
   }
   
   #hero-3 h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    text-shadow: black 3px -1px 10px;
   }
   
   #hero-3 p {
     font-size: 18px;
     margin-bottom: 30px;
+    text-shadow: black 3px -1px 5px;
   }
   
   .cta-button {
