@@ -1,145 +1,83 @@
-* {
-    box-sizing: border-box;
-}
-body {
-    margin: 0px;
-    font-family: sans-serif;
-}
-.spacer {
-    height: 50vh;
-    background-image: url(../images/emerald-seas.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-/* HERO 1 */
-#hero-1 {
+/* Reset some default styles */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Hero section styles */
+  #hero-1 {
     background-image: url(../images/wellness.jpg);
-    height: 100vh;
     background-size: cover;
-    background-position: center center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-}
-#hero-1 h1 {
-    font-size: 10vw;
-    padding-left: 10vw;
-}
-#hero-1 a {
-    font-size: 1.5vw;
-    display: inline-block;
-    background-color: rgb(213, 192, 236);
-    color: darkslategrey;
-    text-decoration: none;
-    padding: 24px;
-    margin: 5vh 5vw 10vh 0px;
-}
-#hero-1 .hero-content {
+    background-position: center;
+    color: rgb(141, 180, 109);
     text-align: center;
-    color: white;
-    padding-top: 20vh;
-}
-
-/* HERO 2 */
-#hero-2 {
+    padding: 100px 0;
+  }
+  
+  #hero-1 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero-1 p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+   /* Hero section styles */
+   #hero-2 {
     background-image: url(../images/coffee.jpg);
-    height: 100vh;
     background-size: cover;
-    background-position: center center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-}
-#hero-2 h1 {
-    font-size: 10vw;
-    padding-left: 10vw;
-}
-#hero-2 a {
-    font-size: 1.5vw;
-    display: inline-block;
-    background-color:rgb(213, 192, 236);
-    color: darkslategrey;
-    text-decoration: none;
-    padding: 24px;
-    margin: 5vh 5vw 10vh 0px;
-}
-#hero-2 .hero-content {
-    text-align: center;
+    background-position: center;
     color: white;
-    padding-top: 20vh;
-}
-
-/* HERO 3 */
-#hero-3 {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #hero-2 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero-2 p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+   /* Hero section styles */
+   #hero-3 {
     background-image: url(../images/watermelon.jpg);
-    height: 100vh;
     background-size: cover;
-    background-position: center center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-}
-#hero-3 h1 {
-    font-size: 10vw;
-    padding-left: 10vw;
-}
-#hero-3 .hero-content {
-    position: absolute;
-    top: 10%;
-    left: 15%;
-}
-#hero-3 a {
-    font-size: 1.5vw;
-    display: inline-block;
-    background-color: rgb(213, 192, 236);
-    color: darkslategrey;
-    text-decoration: none;
-    padding: 24px;
-    margin: 5vh 5vw 10vh 0px;
-}
-#hero-3 .hero-content {
+    background-position: center;
+    color: rgb(0, 0, 0);
     text-align: center;
-    color: white;
-    padding-top: 20vh;
-}
-
-/* HERO 4 */
-#hero-4 {
-    background-image: url(../images/stars-on-velvet.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#hero-4 .hero-content {
-    text-align: center;
-    color: white;
-    padding-top: 20vh;
-}
-
-#hero-4 h2 {
-    font-size: 8vw;
-    margin-bottom: 5vh;
-    margin-right: 5vw;
-}
-
-#hero-4 h4 {
-    font-size: 3vw;
-    margin: 0px 5vw 0px 0px;
-}
-
-#hero-4 a {
-    font-size: 1.5vw;
+    padding: 100px 0;
+  }
+  
+  #hero-3 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero-3 p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
     display: inline-block;
-    background-color: rgb(131, 253, 255);
-    color: rgb(70, 128, 176);
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: white;
     text-decoration: none;
-    padding: 24px;
-    margin: 5vh 5vw 10vh 0px;
-}
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e67300;
+  }
