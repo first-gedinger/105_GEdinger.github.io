@@ -1,3 +1,14 @@
+*{
+  font-family: Arial, sans-serif;
+}
+/*Header*/
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
 /* navigation bar */
 
 .navbar {
@@ -33,3 +44,10 @@
   .nav-links a:hover {
     color: #111e46;
   }
+  
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

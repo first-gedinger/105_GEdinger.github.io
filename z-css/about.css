@@ -1,4 +1,7 @@
 /* Google Fonts */
+*{
+  font-family: Arial, sans-serif;
+}
 /*Header*/
 header {
     background-color: #333;
@@ -45,7 +48,6 @@ header {
   
 /* Paragraph */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
