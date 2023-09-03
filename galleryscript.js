@@ -38,12 +38,6 @@ function centerControls() {
         lightboxImage.src = currentImage.src;
     }
 
-    // Function to start the slideshow
-    function startSlideshow() {
-        clearInterval(interval);
-        interval = setInterval(nextImage, 3000);
-    }
-
     // Function to go to the previous image
     function prevImage() {
         currentImageIndex = (currentImageIndex - 1 + galleryItems.length) % galleryItems.length;
@@ -95,3 +89,5 @@ galleryItems.forEach((item, index) => {
     // Initial filtering
     filterImages();
 });
+
+

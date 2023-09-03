@@ -45,11 +45,7 @@ header {
     color: #111e46;
   }
 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+/* Gallery Part */
 
 .gallery {
   justify-content: center;
@@ -58,8 +54,6 @@ body {
   grid-gap: 20px;
   margin: 20px;
 }
-
-
 .portfolio-item {
   background-color: #f0f0f0;
   padding: 20px;
@@ -72,14 +66,13 @@ body {
   text-decoration: none;
   color: #000000;;
 }
-
 .portfolio-item img {
   max-width: 100%;
   height: auto;
+  border-radius: 2px;
 }
 
-
-
+/* Footer */
 footer {
   background-color: #333;
   color: #fff;
