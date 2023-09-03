@@ -1,8 +1,12 @@
 const categories = document.querySelectorAll('.category');
 const photos = document.querySelectorAll('.photo');
-const thumbnails = document.querySelectorAll('.thumbnail');
+const carousel = document.querySelector('.carousel');
+const prevButton = document.getElementById('prev-button');
+const nextButton = document.getElementById('next-button');
+const fullscreenToggle = document.getElementById('fullscreen-toggle');
 
 let currentCategory = 'all';
+let currentImageIndex = 0;
 
 categories.forEach((category) => {
     category.addEventListener('click', () => {
@@ -11,43 +15,69 @@ categories.forEach((category) => {
     });
 });
 
-photos.forEach((photo) => {
+photos.forEach((photo, index) => {
     photo.addEventListener('click', () => {
-        enlargeImage(photo.querySelector('img').src);
+        toggleFullScreen(index);
     });
 });
 
-thumbnails.forEach((thumbnail) => {
-    thumbnail.addEventListener('click', () => {
-        const tag = thumbnail.getAttribute('data-tags');
-        currentCategory = tag;
-        filterImages();
-    });
+prevButton.addEventListener('click', () => {
+    currentImageIndex = (currentImageIndex - 1 + photos.length) % photos.length;
+    updateCarousel();
+});
+
+nextButton.addEventListener('click', () => {
+    currentImageIndex = (currentImageIndex + 1) % photos.length;
+    updateCarousel();
+});
+
+fullscreenToggle.addEventListener('click', () => {
+    toggleFullScreen(currentImageIndex);
 });
 
 function filterImages() {
     photos.forEach((photo) => {
-        const tags = photo.classList[1]; // Assuming the tag is the second class
+        const tags = photo.getAttribute('data-tags');
         if (currentCategory === 'all' || tags.includes(currentCategory)) {
             photo.style.display = 'block';
         } else {
             photo.style.display = 'none';
         }
     });
+    currentImageIndex = 0;
+    updateCarousel();
 }
 
-function enlargeImage(src) {
-    const enlargedContainer = document.createElement('div');
-    enlargedContainer.className = 'enlarged-image-container';
+function updateCarousel() {
+    const visiblePhotos = Array.from(photos).filter((photo) => photo.style.display !== 'none');
+    carousel.innerHTML = '';
 
-    const enlargedImage = document.createElement('img');
-    enlargedImage.className = 'enlarged-image';
-    enlargedImage.src = src;
+    visiblePhotos.forEach((photo, index) => {
+        const img = photo.querySelector('img').cloneNode();
+        img.addEventListener('click', () => {
+            toggleFullScreen(index);
+        });
+        carousel.appendChild(img);
+        if (index === currentImageIndex) {
+            img.classList.add('active');
+        }
+    });
+}
 
-    enlargedImage.addEventListener('click', () => {
-        document.body.removeChild(enlargedContainer);
+function toggleFullScreen(index) {
+    const img = photos[index].querySelector('img');
+    const fullscreenContainer = document.createElement('div');
+    fullscreenContainer.classList.add('fullscreen-container');
+
+    const fullscreenImg = img.cloneNode();
+    fullscreenImg.classList.add('fullscreen');
+    fullscreenContainer.appendChild(fullscreenImg);
+
+    fullscreenContainer.addEventListener('click', () => {
+        document.body.removeChild(fullscreenContainer);
     });
 
-    enlargedContainer.appendChild(enlargedImage);
-    document.body.appendChild(enlargedContainer);
+    document.body.appendChild(fullscreenContainer);
 }
+
+filterImages();
