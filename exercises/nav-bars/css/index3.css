@@ -58,7 +58,7 @@ body {
 }
 
 .main-nav ul li a:hover {
-    color: #FF6600; /* Change color on hover */
+    color: #FF6600;
 }
 
 .cta-button {
@@ -103,13 +103,10 @@ body {
 }
 
 .category-nav ul li a:hover {
-    color: #000000; /* Change color on hover */
+    color: #000000;
 }
 
 /* Footer */
-
-/* Your existing styles for the header and navigation bar */
-
 .footer {
     background-color: #000;
     color: #fff;
@@ -168,14 +165,12 @@ body {
     margin: 0 10px;
 }
 
-/* Additional styling for social icons, adjust image paths as needed */
 .social-icon img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
 }
 
-/* Responsive layout adjustments */
 @media screen and (max-width: 768px) {
     .footer-content {
         flex-direction: column;

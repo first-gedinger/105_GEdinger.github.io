@@ -1,4 +1,4 @@
-/* Reset some default styles for better control */
+
 body, ul, li {
     margin: 0;
     padding: 0;
@@ -6,9 +6,8 @@ body, ul, li {
     font-family: Arial, sans-serif;
 }
 
-/* Style the header and navigation bar */
 header {
-    background-color: #ffdc7c; /* Warm gold color */
+    background-color: #ffdc7c;
     padding: 10px 0;
 }
 
@@ -21,7 +20,6 @@ nav {
     padding: 0 20px;
 }
 
-/* Style the logo */
 .logo {
     font-size: 24px;
     font-weight: bold;
@@ -34,7 +32,6 @@ nav {
     color: inherit;
 }
 
-/* Style the navigation links */
 .nav-links {
     display: flex;
     gap: 20px;
@@ -54,7 +51,6 @@ nav {
     color: #ff9b71;
 }
 
-/* Style the subscribe button */
 .cta {
     margin-left: auto;
 }
@@ -78,8 +74,8 @@ nav {
 }
 
 .footer {
-    background-color: #333; /* Dark background color */
-    color: #fff; /* White text color */
+    background-color: #333;
+    color: #fff;
     padding: 20px 0;
     text-align: center;
 }
@@ -108,7 +104,7 @@ nav {
 
 .footer-links a {
     text-decoration: none;
-    color: #fff; /* White text color for links */
+    color: #fff;
     font-weight: bold;
 }
 
