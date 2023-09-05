@@ -1,0 +1,121 @@
+/* Reset some default styles for better control */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header and navigation bar */
+header {
+    background-color: #ffdc7c; /* Warm gold color */
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Style the logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #dd614a;
+    padding-right: 60px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Style the navigation links */
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    font-size: 18px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff9b71;
+}
+
+/* Style the subscribe button */
+.cta {
+    margin-left: auto;
+}
+
+.subscribe-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #dd614a; 
+    color: #fff; 
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: #ff9b71;
+}
+
+.footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff; /* White text color for links */
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    color: #ff9b71;
+}
+
+.spacer{
+    padding: 50px;
+}
