@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+.section-grid {
+    display: grid;
+    grid-template-columns: 1fr; 
+}
 
 h2 {
     margin: 0;
@@ -58,7 +62,10 @@ p {
     transition: transform 0.2s ease-in-out;
 }
 
-.card-content2 {
+.card-content2-1,
+.card-content2-2, 
+.card-content2-3, 
+.card-content2-4 {
     padding: 20px;
     color: #fff;
     text-align: center;
@@ -69,8 +76,17 @@ p {
     transform: scale(1.05);
 }
 
-.card2:hover .card-content2 {
-    text-shadow: 0 0 10px rgba(255, 30, 0, 0.8), 0 0 
+.card2:hover .card-content2-1 {
+    text-shadow: 0 0 10px #FF0000, 0 0 
+}
+.card2:hover .card-content2-2 {
+    text-shadow: 0 0 10px #FFFF00, 0 0 
+}
+.card2:hover .card-content2-3 {
+    text-shadow: 0 0 10px #00ff00, 0 0 
+}
+.card2:hover .card-content2-4 {
+    text-shadow: 0 0 10px #006eff, 0 0 
 }
 
 .card-container3 {
