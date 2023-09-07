@@ -1,0 +1,39 @@
+.animal-gallery {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.animal-gallery h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.animal-gallery .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.animal-gallery .gallery-item {
+    flex: 0 1 calc(33.33% - 10px);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.animal-gallery .gallery-item:hover {
+    transform: scale(1.1);
+}
+
+.animal-gallery .gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.gallery-link {
+    text-decoration: none;
+    color: black;
+}

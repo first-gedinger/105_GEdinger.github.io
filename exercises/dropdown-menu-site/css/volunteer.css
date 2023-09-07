@@ -1,0 +1,33 @@
+.hero {
+    background-image: url('../images/hero3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.volunteer-content {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.volunteer-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.volunteer-content a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.volunteer-content a:hover {
+    text-decoration: underline;
+}
