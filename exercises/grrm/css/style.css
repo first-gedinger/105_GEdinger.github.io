@@ -506,7 +506,7 @@ body {
     }
 
     #nav a {
-        flex: 0 1 calc(33.33% - 12px);
+        flex: 0 1 calc(50% - 12px); /* Reduce the size of nav links */
         margin: 3px;
     }
 
