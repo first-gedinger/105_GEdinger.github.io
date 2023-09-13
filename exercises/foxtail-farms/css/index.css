@@ -7,7 +7,7 @@
 }
 
 .welcome-content {
-    flex-basis: 70%;
+    flex-basis: 50%;
 }
 
 .welcome-content h1 {
@@ -34,12 +34,29 @@
     font-weight: 400;
 }
 
-.logo img {
-    max-width: 100%;
+.logo-header{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-header img {
+    max-width: 70%;
     height: auto;
 }
 
 /* Section 2: Feature Cards */
+.feature-card {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-card h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    padding-left: 40px
+}
+
 .feature-cards {
     background: linear-gradient(180deg, #fff 50%, #fff 50%, #fff 70%, #0000001e 70%);
     display: flex;
@@ -135,6 +152,17 @@
 }
 
 /* Section 4: Recipe Cards */
+.recipe{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recipe h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    padding-left: 40px
+}
+
 .recipe-cards {
     display: flex;
     justify-content: space-between;
