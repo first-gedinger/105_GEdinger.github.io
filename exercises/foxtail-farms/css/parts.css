@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1;800;0,700&display=swap');
+
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #0000002f; /* Change the background color as desired */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+
+/* Style the logo */
+.logo img {
+    max-height: 80px; 
+}
+
+/* Style the navigation links */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px; 
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #E1A177; 
+}
+
+
+
+/* Style the footer */
+.footer {
+    background-color: #E1A177; /* Change the background color as desired */
+    color: #fff; /* Change the text color as desired */
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* Style the footer columns */
+.footer-left,
+.footer-middle,
+.footer-right {
+    flex-basis: calc(33.33% - 10px); /* Create three equal-width columns with a small gap */
+    margin-right: 10px; /* Add a small gap between columns */
+}
+
+/* Style the bordered rectangle around logo and copyright */
+.bordered-rectangle {
+    margin: 0;
+
+    background-color: #ffffff80;
+    width: 10px;
+    flex-direction: column;
+    justify-content:space-between
+}
+
+/* Style the logo in the footer */
+.footer-logo img {
+    max-height: 60px; /* Adjust the logo height as needed */
+}
+
+/* Style the navigation links in the footer */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-bottom: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff; /* Change the link text color as desired */
+}
+
+/* Style the social media links in the footer */
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social-links li {
+    margin-right: 10px; /* Adjust the spacing between social media icons as needed */
+}
+
+/* Style the subscribe bar in the footer */
+.footer-subscribe h4 {
+    margin-top: 0;
+}
+
+.footer-subscribe form {
+    display: flex;
+    align-items: center;
+}
+
+.footer-subscribe input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px; /* Adjust the spacing between input and button as needed */
+    flex-grow: 1;
+}
+
+.footer-subscribe button {
+    background-color: #ff5733; /* Change the button color as desired */
+    color: #fff; /* Change the button text color as desired */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style the contact information in the footer */
+.footer-contact h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,201 @@
+/* Section 1: Welcome Header */
+.welcome-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.welcome-content {
+    flex-basis: 70%;
+}
+
+.welcome-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.welcome-content p {
+    font-size: 1.2rem;
+}
+
+.welcome-header .btn {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #666;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.26);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-weight: 400;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Section 2: Feature Cards */
+.feature-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10% 40px 10%;
+    gap: 7%;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    flex-basis: calc(33.33% - 20px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.card h2 {
+    font-size: 1.5rem;
+}
+
+.card img {
+    max-width: 70%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+.card .btn{
+    display: inline-block;
+    background-color: #ffffff;
+    color: #E1A177;
+    border: 1px solid #E1A177;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+/* Section 3: Title with Description and Button */
+.section-with-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.section-content {
+    flex-basis: 60%;
+}
+
+.section-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+}
+
+.section-content p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.section-content .btn {
+    background-color: #E1A177;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.image {
+    flex-basis: 30%;
+    text-align: right; 
+    margin-right: 90px;
+}
+
+.image img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Section 4: Recipe Cards */
+.recipe-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10% 40px 10%;
+    gap: 7%;
+}
+
+.recipe-cards h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.recipe-cards .btn{
+    display: inline-block;
+    background-color: #ffffff;
+    color: #E1A177;
+    border: 1px solid #E1A177;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+
+/* Section 5: Another Header */
+.another-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #e1a17769;
+    border: 1px solid #ddd;
+}
+
+.column5-1 {
+    flex-basis: 30%;
+}
+
+.column5-2 {
+    flex-basis: 70%;
+}
+
+.bottom-image {
+    flex-basis: 30%;
+    text-align: left; /* Align the image to the left */
+}
+
+.bottom-image img {
+    max-width: 70%;
+    height: auto;
+}
+
+.another-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.another-header p {
+    font-size: 1.2rem;
+    width: 70%;
+}

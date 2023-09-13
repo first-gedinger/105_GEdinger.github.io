@@ -1,0 +1,79 @@
+/* Style the page header */
+.page-header {
+    padding: 40px;
+    margin-right: 40%;
+    text-align: left;
+}
+
+/* Style the header title */
+.page-header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Style the header description */
+.page-header p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+/* Style the product gallery */
+.product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+/* Style each product card */
+.product-card {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    padding: 20px;
+    flex-basis: calc(25% - 20px); 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style product images */
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style product titles */
+.product-card h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+/* Style product descriptions */
+.product-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Style product prices */
+.product-card .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff5733; 
+    font-style: italic;
+}
+
+/* Hover effect */
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1) ;
+}
