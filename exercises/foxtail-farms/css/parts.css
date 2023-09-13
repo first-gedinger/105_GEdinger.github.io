@@ -9,6 +9,7 @@ body {
 
 /* Nav Bar */
 .navbar {
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
