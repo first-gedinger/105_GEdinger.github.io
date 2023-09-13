@@ -41,6 +41,7 @@
 
 /* Section 2: Feature Cards */
 .feature-cards {
+    background: linear-gradient(180deg, #fff 50%, #fff 50%, #fff 70%, #0000001e 70%);
     display: flex;
     justify-content: space-between;
     padding: 40px 10% 40px 10%;
