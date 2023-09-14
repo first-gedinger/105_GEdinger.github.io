@@ -1,0 +1,139 @@
+
+/* Section 1: Our Technology */
+.page-header {
+    margin: 0 7% 0 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.header-content {
+    flex-basis: 50%;
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.header-content p {
+    font-size: 1.2rem;
+}
+
+.page-header .btn {
+    background-color: #E1A177;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.logo-header{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-header img {
+    margin-right: 5%;
+    max-width: 40%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Section 2: Natural Energy */
+.natural-energy{
+    margin: 0 7% 0 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.natural-content{
+    flex-basis: 60%;
+}
+
+.natural-content h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.natural-image{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.natural-image img{
+    margin-right: 5%;
+    max-width: 40%;
+    height: auto;
+    border-radius: 5px;  
+}
+
+/* Image Divider */
+.image-divider{
+    margin-top: 0;
+}
+.image-divider img{
+    width: 100%;
+}
+
+/* Section 2: Genetics */
+.genetics{
+    margin: 0 7% 0 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.genetics-content{
+    flex-basis: 60%;
+}
+
+.genetics-content h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+/* Section 4: Patent */
+.patent{
+    background-color: #e1a17769;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.patent-content{
+    margin: 0 7% 0 7%;
+    flex-basis: 60%;
+}
+
+.patent-content h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.patent-image{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.patent-image img {
+    margin-right: 5%;
+    max-width: 40%;
+    height: auto;
+    border-radius: 5px;
+}

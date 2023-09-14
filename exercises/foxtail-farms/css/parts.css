@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1;800;0,700&display=swap');
 
-/* Reset some default styles */
+/* Reset default styles */
 body {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #0000002f;
-    padding: 10px 20px;
+    padding: 0 20px 0 10px;
     color: #fff;
 }
 
@@ -35,7 +35,7 @@ body {
     flex-basis: 60%;
     list-style: none;
     display: flex;
-    justify-content: flex-end; /* Align links to the right */
+    justify-content: flex-end; 
     gap: 20px;
 }
 
@@ -49,7 +49,7 @@ body {
     font-weight: bold;
 }
 
-/* Style for navigation links when hovered */
+/* Style navigation links when hovered */
 .nav-links a:hover {
     color: #E1A177;
 }
@@ -67,14 +67,15 @@ body {
 .footer-left {
     flex-basis: 30%;
     padding-right: 20px;
-    border-right: 1px solid #ccc; /* Optional: Add a border to separate columns */
+    border-right: 1px solid #ccc; 
 }
 
 .bordered-rectangle{
     background-color: #ffffff34;
+    margin-right: 0; 
 }
 
-/* Logo in the left column */
+/* Logo left column */
 .footer-logo img {
     max-width: 20%;
     height: auto;

@@ -1,5 +1,6 @@
 /* Section 1: Welcome Header */
 .welcome-header {
+    margin: 0 7% 0 7%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,16 +46,18 @@
     height: auto;
 }
 
-/* Section 2: Feature Cards */
+/* Section 2: Science Cards */
 .feature-card {
     justify-content: space-between;
     align-items: center;
 }
 
 .feature-card h2{
-    font-size: 2.5rem;
+    text-align: center;
+    font-size: 3rem;
     margin-bottom: 10px;
-    padding-left: 40px
+    padding-left: 40px;
+    font-family: 'Lobster', cursive;
 }
 
 .feature-cards {
@@ -68,16 +71,17 @@
 .card {
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 25px;
     padding: 20px;
-    flex-basis: calc(33.33% - 20px);
+    flex-basis: calc(33.33%);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     text-align: center;
-    
 }
 
 .card h2 {
     font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 .card img {
@@ -107,6 +111,7 @@
 
 /* Section 3: Title with Description and Button */
 .section-with-title {
+    margin: 0 7% 0 7%;
     display: flex;
     justify-content: space-between;
     padding: 40px;
@@ -142,8 +147,6 @@
 .image {
     flex-basis: 30%;
     text-align: right; 
-    margin-right: 90px;
-    
 }
 
 .image img {
@@ -162,7 +165,8 @@
 .recipe h2{
     font-size: 2.5rem;
     margin-bottom: 10px;
-    padding-left: 40px
+    padding-left: 40px;
+    text-align: center;
 }
 
 .recipe-cards {
@@ -173,7 +177,7 @@
 }
 
 .recipe-cards h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 20px;
 }
 
@@ -203,16 +207,18 @@
 }
 
 .column5-1 {
+    margin-left: 5%;
     flex-basis: 30%;
 }
 
 .column5-2 {
+    margin-right: 5%;
     flex-basis: 70%;
 }
 
 .bottom-image {
     flex-basis: 30%;
-    text-align: left; /* Align the image to the left */
+    text-align: left; 
 }
 
 .bottom-image img {
