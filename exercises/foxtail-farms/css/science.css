@@ -1,3 +1,6 @@
+.navbar{
+    background-color: #e1a17769;
+}
 
 /* Section 1: Our Technology */
 .page-header {
@@ -20,6 +23,7 @@
 
 .header-content p {
     font-size: 1.2rem;
+    font-size: 24px;
 }
 
 .page-header .btn {
@@ -48,7 +52,6 @@
 
 /* Section 2: Natural Energy */
 .natural-energy{
-    margin: 0 7% 0 7%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,7 +59,8 @@
 }
 
 .natural-content{
-    flex-basis: 60%;
+    margin: 0 7% 0 7%;
+    flex: 1;
 }
 
 .natural-content h2{
@@ -65,17 +69,16 @@
     font-style: italic;
 }
 
-.natural-image{
-    flex-basis: 50%;
-    display: flex;
-    justify-content: flex-end;
+.natural-content p{
+    font-size: 24px;
 }
 
-.natural-image img{
-    margin-right: 5%;
-    max-width: 40%;
+.natural-image img {
+    float: right;
+    padding: 1% 0 1% 5%;
+    max-width: 20%;
     height: auto;
-    border-radius: 5px;  
+    border-radius: 5px;
 }
 
 /* Image Divider */
@@ -86,7 +89,7 @@
     width: 100%;
 }
 
-/* Section 2: Genetics */
+/* Section 3: Genetics */
 .genetics{
     margin: 0 7% 0 7%;
     display: flex;
@@ -96,13 +99,36 @@
 }
 
 .genetics-content{
-    flex-basis: 60%;
+    flex: 1;
 }
 
 .genetics-content h2{
     font-size: 2.5rem;
     margin-bottom: 10px;
     font-style: italic;
+}
+
+.genetics-content p{
+    font-size: 24px;
+}
+.genetic-image1{
+    border-radius: 5px
+}
+
+.genetic-image1 img{
+    float: left;
+    padding: 1% 5% 1% 0;
+    max-width: 25%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.genetic-image2 img{
+    float: right;
+    padding: 0 0 0 5%;
+    max-width: 25%;
+    height: auto;
+    border-radius: 5px;
 }
 
 /* Section 4: Patent */
@@ -116,7 +142,7 @@
 
 .patent-content{
     margin: 0 7% 0 7%;
-    flex-basis: 60%;
+    flex: 1;
 }
 
 .patent-content h2{
@@ -125,15 +151,14 @@
     font-style: italic;
 }
 
-.patent-image{
-    flex-basis: 50%;
-    display: flex;
-    justify-content: flex-end;
+.patent-content p{
+    font-size: 24px;
 }
 
 .patent-image img {
-    margin-right: 5%;
-    max-width: 40%;
+    float: left;
+    padding: 0 5% 1% 0;
+    max-width: 20%;
     height: auto;
     border-radius: 5px;
 }
