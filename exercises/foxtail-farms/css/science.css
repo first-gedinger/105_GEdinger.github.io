@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
+    z-index: 1;
 }
 
 .navbar{
@@ -13,13 +14,16 @@
     width: 95%;
     height: 95%;
     top: 2%;
+    z-index: 1;
 }
 
 nav{
     display: block;
+    z-index: 1;
 }
 
-/* Section 1: Our Technology */
+
+/* Section 1: Our Technology*/
 .page-header {
     margin: 0 7% 0 7%;
     display: flex;

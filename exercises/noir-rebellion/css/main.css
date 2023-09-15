@@ -1,0 +1,305 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon, .bell-icon {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.profile {
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Hero section styles */
+.hero {
+    margin: 0 2% 0 2%;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.jewelry-btn {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.learn-more-btn {
+    background-color: transparent;
+    color: white;
+    border: 3px solid #ffffff;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Best Sellers Styles */
+.best-sellers {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.best-sellers h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: calc(25% - 20px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-weight: bold;
+    color: #ff5733;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars {
+    font-size: 18px;
+    color: #ff5733;
+    margin-right: 5px;
+}
+
+.review-count {
+    font-size: 14px;
+    color: #777;
+}
+
+
+
+/* Footer Styles */
+.footer {
+    background-image: url(../images/gradient.png);
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr .5fr .5fr .5fr .5fr;
+    gap: 20px;
+    align-items: start;
+    grid-template-areas: "subscribe empty contact quick legal";
+}
+
+.subscribe-section {
+    grid-area: subscribe;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 5px;
+}
+
+.subscribe-section h4 {
+    font-size: 18px;
+}
+
+.subscribe-section h6 {
+    font-size: 12px;
+}
+
+.subscribe-input {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-section input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.subscribe-section button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.empty-column {
+    grid-area: empty;
+}
+
+.contact-info {
+    grid-area: contact; 
+    text-align: left;
+}
+
+.contact-info h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.quick-links {
+    grid-area: quick; 
+    text-align: left;
+}
+
+.quick-links h4 {
+    font-size: 18px;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links ul li {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.legal-links {
+    grid-area: legal; 
+    text-align: left;
+}
+
+.legal-links h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.legal-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.legal-links ul li {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.copyright-bar {
+    margin-top: 10px;
+    background-color: #000000a1;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright-bar p {
+    margin-left: 5%;
+    color: white;
+}
+
+.social-links {
+    margin-right: 5%;
+    text-align: right;
+}
+
+.social-links a {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
