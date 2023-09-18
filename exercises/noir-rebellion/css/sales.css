@@ -8,6 +8,19 @@ h1 {
     font-size: 36px;
 }
 
+/* CSS for the Sort & Filter Section */
+.sort-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+}
+
+#sort-select {
+    padding: 5px;
+}
+
 /* Item Gallery Styles */
 .item-gallery {
     display: flex;
@@ -25,6 +38,13 @@ h1 {
     width: calc(20%); 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.item-card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.01);
 }
 
 .item-card img {
