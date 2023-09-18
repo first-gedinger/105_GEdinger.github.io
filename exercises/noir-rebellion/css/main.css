@@ -227,6 +227,11 @@ body, ul {
     text-align: left;
 }
 
+.quick-links li:hover{
+    color: #000000;
+    font-weight: bold;
+}
+
 .quick-links h4 {
     font-size: 18px;
 }
@@ -244,6 +249,11 @@ body, ul {
 .legal-links {
     grid-area: legal; 
     text-align: left;
+}
+
+.legal-links li:hover {
+    color: #000000;
+    font-weight: bold;
 }
 
 .legal-links h4 {
@@ -286,68 +296,98 @@ body, ul {
     text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
-    /* Navbar styles */
-    .navbar {
-        padding: 10px;
-    }
+.social-links a i:hover {
+    font-weight: bold;
+}
 
-    .brand {
-        font-size: 24px;
+/* Media Query for screens with a minimum width of 801px and a maximum width of 1000px */
+@media (min-width: 801px) and (max-width: 1000px) {
+    /* Navbar Styles */
+    .navbar {
+        padding: 10px 20px; 
     }
 
     .nav-links li {
-        margin-right: 10px;
+        margin-right: 10px; 
     }
 
-    .icons {
-        font-size: 18px;
-    }
-    
-    /* Footer Style */
-    .footer-content {
-        grid-template-columns: 1fr 1fr;
+    /* Footer Styles */
+    .footer {
+        padding: 20px 0; 
     }
 
-    .contact-info, .quick-links, .legal-links {
-        text-align: center;
+    .subscribe-section {
+        margin-bottom: 20px; 
     }
 
-    .contact-info p {
-        margin-bottom: 15px;
+    .quick-links {
+        display: block; 
+    }
+
+    .copyright-bar {
+        margin-top: 10px;
+        flex-direction: row; 
+        align-items: center; 
+    }
+
+    .social-links {
+        margin: 0; 
     }
 }
 
-@media screen and (max-width: 480px) {
-    /* Navbar styles */
+/* Media Query for screens with a max-width of 800px */
+@media (max-width: 800px) {
     .navbar {
         flex-direction: column;
         align-items: center;
-    }
-
-    .brand {
-        font-size: 20px;
-        text-align: center;
+        padding: 20px;
     }
 
     .nav-links {
+        flex-direction: row; 
+        justify-content: center;
+        text-align: center;
         margin-top: 10px;
-        flex-direction: column;
     }
 
     .nav-links li {
-        margin-right: 0;
-        margin-bottom: 10px;
+        margin: 10px 0;
+        padding: 5px;
     }
 
     .icons {
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
-    /* Footer Style */
-    .footer-content {
-        grid-template-columns: 1fr;
+    .footer {
+        text-align: center;
+    }
+
+    .subscribe-section {
+        margin-bottom: 20px;
+    }
+
+    .quick-links {
+        display: none; 
+    }
+
+    .copyright-bar {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .copyright-bar p {
+        margin: 0; 
+    }
+
+    .social-links {
+        margin: 10px 0; 
     }
 }
+
+
+
 
 
