@@ -21,8 +21,8 @@ nav {
 }
 
 .logo {
-    display: flex; /* Add display: flex */
-    align-items: center; /* Vertically center elements */
+    display: flex;
+    align-items: center; 
 }
 
 .logo img {
@@ -31,8 +31,8 @@ nav {
 }
 
 .logo h1 {
-    margin: 0; /* Remove margin to avoid spacing issues */
-    font-size: 24px; /* Adjust font size as needed */
+    margin: 0; 
+    font-size: 24px; 
     font-family: 'Playfair Display', serif;
 }
 
@@ -89,8 +89,7 @@ nav {
     margin: 0 auto;
     padding: 20px;
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-    justify-content: space-between;
+    flex-wrap: wrap; 
 }
 
 .featured-dish {
@@ -115,7 +114,7 @@ nav {
 }
 
 .menu-items {
-    flex: 2; /* Adjust based on the desired layout */
+    flex: 2; 
     display: flex;
     flex-wrap: wrap;
 }
