@@ -27,6 +27,16 @@ nav {
     align-items: center; 
 }
 
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo a:hover {
+    text-decoration: none;
+    color: #676C8C;
+}
+
 .logo img {
     height: 60px;
     margin-right: 10px;
@@ -47,6 +57,10 @@ nav {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+}
+
+.menu a:hover{
+    color: #676C8C; 
 }
 
 /* Hero section styles */
