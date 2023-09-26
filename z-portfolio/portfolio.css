@@ -1,6 +1,5 @@
 
 /* Project Part */
-  
 .project {
   display: flex;
   flex-direction: column; 
@@ -26,4 +25,46 @@
   display: block;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .project {
+    padding: 40px; 
+  }
+
+  .photo-gallery {
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+  }
+
+  .gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project {
+    padding: 20px; 
+  }
+
+  .project-details {
+    padding: 10px; 
+  }
+
+  .photo-gallery {
+    grid-template-columns: 1fr; 
+    gap: 10px; 
+  }
+
+  .gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
 }

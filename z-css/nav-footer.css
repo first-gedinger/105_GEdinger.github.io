@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /* Reset some default styles */
 * {
     margin: 0;
@@ -6,9 +8,13 @@
 }
 
 body {
-    background-color: #000;
-    color: #fff;
-    font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Hind', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Header Styles */
@@ -44,8 +50,8 @@ nav {
 }
 
 .logo img {
-    width: 50px;
-    height: 50px;
+    width: 5%;
+    height: auto;
 }
 
 .nav-links {
@@ -69,11 +75,201 @@ nav {
     font-weight: bold;
 }
 
+
 /* Footer Styles */
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #000;
-    bottom: 0;
-    width: 100%;
+.footer {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
 }
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left img{
+    max-width: 5%; 
+    height: auto;
+    margin: 20px;
+}
+
+.copyright {
+    font-size: 14px;
+}
+
+.footer-right {
+    width: 600px;
+    text-align: right;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.footer-links li {
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    color: #d43939;
+}
+
+/* Media Query */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Navigation Bar adjustments*/
+    header {
+      padding: 20px 0;
+    }
+  
+    .nav-links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .logo img {
+      width: 5%;
+      height: auto;
+    }
+  
+    .nav-links li {
+      margin-left: 20px;
+    }
+  
+    .nav-links a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+  
+    .nav-links a:hover {
+      text-decoration: none;
+      color: #d43939;
+      font-weight: bold;
+    }
+  
+    /* Footer adjustments*/
+    .footer {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      background-color: #000000;
+      color: #fff;
+      padding: 20px;
+    }
+  
+    .footer-left {
+      display: flex;
+      align-items: center;
+    }
+  
+    .footer-left img {
+      max-width: 5%;
+      height: auto;
+      margin-right: 10px;
+    }
+  
+    .copyright {
+      font-size: 14px;
+    }
+  
+    .footer-right {
+      text-align: right;
+    }
+  
+    .footer-links ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+    }
+  
+    .footer-links li {
+      margin-right: 20px;
+    }
+  
+    .footer-links a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+    }
+  
+    .footer-links a:hover {
+      color: #d43939;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    /* Header adjustments */
+    .nav-links {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    }
+    
+    .nav-links li {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    }
+    
+    .logo img {
+    width: 15%;
+    margin-top: 10px;
+    }
+  
+  
+    /* Footer adjustments */
+    .footer {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 10px;
+      }
+    
+      .footer-left img {
+        max-width: 10%;
+        margin: 0;
+        margin-bottom: 10px;
+      }
+    
+      .copyright {
+        margin-left: 50px;
+        font-size: 12px;
+        margin-top: 10px;
+      }
+    
+      .footer-right {
+        width: 100%;
+      }
+    
+      .footer-links ul {
+        justify-content: center;
+      }
+    
+      .footer-links li {
+        margin-right: 20px;
+      }
+    
+      .footer-links a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+      }
+    
+      .footer-links a:hover {
+        color: #d43939;
+      }
+  }
+  
