@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;800&display=swap');
+
+/* Reset some default styles */
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Style the navbar */
+.navbar {
+    margin-top: 30px;
+    background-color: #007BFF;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Style the team header */
+.team-header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.team-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.team-header p {
+    font-size: 18px;
+}
+
+/* Style the image section */
+.image-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-section img {
+    max-width: 25%;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.image-section img:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out; 
+}
+
+/* Style the stats section */
+.stats-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.stats-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stats-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.stats-section li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Media Query*/
+@media screen and (max-width: 768px) {
+    /* Navbar adjustments */
+    .navbar {
+        margin-top: 10px;
+    }
+    
+    .navbar ul {
+        padding: 10px;
+    }
+    
+    .navbar li {
+        margin-right: 10px;
+    }
+    
+    .navbar a {
+        font-size: 16px;
+    }
+    
+    /* Team header adjustments */
+    .team-header h1 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    
+    .team-header p {
+        font-size: 16px;
+    }
+    
+    /* Image section adjustments */
+    .image-section img {
+        max-width: 50%;
+        margin: 10px;
+    }
+    
+    /* Stats section adjustments */
+    .stats-section h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .stats-section li {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+}
