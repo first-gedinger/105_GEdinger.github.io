@@ -5,7 +5,7 @@
   flex-direction: column; 
   align-items: center; 
   text-align: center;
-  padding: 20px;
+  padding: 0;
 }
 
 .project-details {
@@ -13,9 +13,10 @@
 }
 
 .photo-gallery {
+  padding: 0 20px ;
   display: grid;
   grid-template-columns: 50% 50%;
-  gap: 20px;
+  gap: 50px;
   margin-top: 20px;
 }
 

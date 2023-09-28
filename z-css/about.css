@@ -24,13 +24,33 @@
 
 .divider {
   border-top: 1px solid #555;
-  margin: 40px 0;
+  margin-top: 20px;
 }
 
-.resume {
-  max-width: 800px;
+.resume-container {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  max-width: 60%;
   margin: 0 auto;
-  padding: 40px;
+  padding: 10px;
+}
+
+.resume-content {
+  flex: 1;
+  padding: 0 20px;
+  text-align: right;
+}
+
+.resume-image {
+  max-width: 40%;
+  flex: 1;
+}
+
+.resume-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 h1 {

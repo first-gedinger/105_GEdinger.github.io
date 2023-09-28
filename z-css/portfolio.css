@@ -10,17 +10,16 @@
 }
 
 .portfolio-item {
-  background-color: #333;
+  background-color: #1f1f1f;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.2s, ease-in-out 0.2s;
 }
 
 .portfolio-item:hover {
+  background-color: #d439392c;
   transform: translateY(-5px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 .portfolio-item a {

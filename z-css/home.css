@@ -1,12 +1,13 @@
 /* hero section */
 .hero {
     text-align: center;
-    padding: 150px 0;
+    padding: 200px 0;
     position: relative;
     background-image: url('../z-images/background.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
+    border-bottom: 1px solid #555;
 }
 
 .hero-content {
@@ -21,7 +22,7 @@
 
 /* content section (cards) */
 .content {
-    padding: 40px 0;
+    padding: 100px 0;
     display: flex;
     justify-content: space-around;
 }
@@ -39,7 +40,7 @@
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-    background-color: #555;
+    background-color: #1f1f1f;
 }
 
 .card h2 {
@@ -67,6 +68,31 @@
     background-color: #d43939;
     color: #fff;
     font-weight: bold;
+}
+
+
+
+/* contact section */
+.contact {
+    border-top: 1px solid #555;
+    text-align: center;
+    padding: 100px 0;
+    background-color: #1f1f1f;
+}
+
+.contact-content {
+    position: relative;
+    z-index: 1;
+}
+
+.contact-content h2 {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.contact-content p {
+    font-size: 16px;
+    color: #ffffff;
 }
 
 /* Media Screens*/

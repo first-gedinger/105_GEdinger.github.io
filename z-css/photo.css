@@ -1,131 +1,110 @@
-*{
-    font-family: Arial, sans-serif;
-  }
-/* Gallery Part */
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
+/* hero beach */
+.hero-beach:before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.637);
+    transition: background-color ease-in-out 0.2s;
 }
 
-.tags {
+.hero-beach {
+    margin: 10px 40px 15px 40px;
     text-align: center;
-    margin: 20px 20px;
-}
-
-.tag-button {
-    padding: 8px 16px;
-    margin: 5px;
-    cursor: pointer;
-    background-color: #ffffff;
-    color: #000000;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.tag-button.active {
-    font-weight: bolder;
-    background-color: #851c1c; 
-  }
-
-  .tag-button:hover {
-    font-weight: bold;
-    background-color: #d43939; 
-  }  
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 6px;
-}
-
-.gallery-item {
+    padding: 150px 0;
     position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    padding: 10px;
+    background-image: url('../z-imagesgallery/beach.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    transition: ease-in-out 0.2s;
 }
 
-.gallery-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 2px;
-}
-
-.lightbox {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    justify-content: center;
-    align-items: center;
+.hero-content-beach {
+    position: relative;
     z-index: 1;
 }
 
-.lightbox-content {
+
+.hero-beach h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hero-beach p {
+    margin: 20px 100px;
+}
+
+.hero-beach:hover{
+    transform: scale(1.01,1.01);
+}
+
+.hero-beach:hover:before {
+    background-color: rgba(0, 0, 0, 0.178); 
+}
+
+/* hero animals */
+.hero-animals:before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+.hero-animals {
+    margin: 10px 40px 15px 40px;
+    text-align: center;
+    padding: 150px 0;
     position: relative;
-    max-width: 90%;
-    max-height: 90%;
-    text-align: center;
-}
-
-.lightbox img {
-    max-width: 35%;
-    max-height: 35%;
-    object-fit: contain;
-}
-
-.controls {
-    margin-top: 10px;
-}
-
-/* Add any additional styling as needed */
-
-/* CSS for the Previous and Next Buttons */
-#prev-button,
-#next-button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 16px; /* Adjust the font size as needed */
-    transition: background-color 0.3s;
-}
-
-#prev-button:hover,
-#next-button:hover {
-    background-color: #555;
-}
-
-#prev-button {
-    left: 20px;
-}
-
-#next-button {
-    right: 20px;
-}
-.close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 30px;
-    cursor: pointer;
-    color: white;
-}
-  
-/* Footer */
-footer {
-    background-color: #333;
+    background-image: url('../z-imagesgallery/animals.jpg');
+    background-size: cover;
+    background-position: center;
     color: #fff;
-    text-align: center;
-    padding: 10px;
+    transition: ease-in-out 0.2s;
+}
+
+.hero-content-animals {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-animals h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hero-animals p {
+    margin: 20px 100px;
+}
+
+.hero-animals:hover{
+    transform: scale(1.01,1.01);
+}
+
+.hero-animals:hover:before {
+    background-color: rgba(0, 0, 0, 0.178); 
+}
+
+/*button */
+.button {
+    background-color: #0000002d;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: ease-in-out 0.2s;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.button:hover {
+    font-weight: bolder;
+    font-size: 18px;
 }
