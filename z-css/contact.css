@@ -83,3 +83,53 @@ color: #000;
   background-color: #d43939;
   font-weight: 700;
 }
+
+/* content section (cards) */
+.content {
+  padding: 10px 0 60px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 3px;
+  text-align: center;
+  transition: transform 0.2s, ease-in-out 0.2s;
+  width: 400px;
+  border: 1px solid #555;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  background-color: #1f1f1f;
+}
+
+.card h2 {
+  font-size: 24px;
+  color: #fff;
+}
+
+.card p {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.btn:hover {
+  background-color: #d43939;
+  color: #fff;
+  font-weight: bold;
+}
